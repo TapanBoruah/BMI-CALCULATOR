@@ -1,0 +1,158 @@
+body{
+  background-color: rgb(25, 24, 22);
+}
+.main{
+  display:flex;
+}
+
+.bmical{
+  position: fixed;
+  left:50vw;
+  
+}
+.container{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:50vh;
+  width:27vw;
+  border:2px solid rgb(247, 241, 241);
+  background-color: rgb(238, 239, 234);
+}
+.units{
+  position: relative;
+  left:-1vw;
+  top:-4vh;
+  width:8vw;
+  height:5vh;
+  font-size: 1.4vw;
+  font-weight: 600;
+  margin: 0.3vw;;
+}
+.container ul li{
+  position: relative;
+  top:-5vh;
+  margin-top: 2vh;
+  color:rgb(1, 1, 1);
+  font-weight: 600;
+}
+.container ul li input{
+  font-size: 1.3vw;
+}
+#height::placeholder ,#weight::placeholder{
+  text-align: end;
+}
+.placeholder{
+  text-align: end;
+  position: absolute;
+  left:18vw;
+  top:0.5vh;
+  font-size: 16px;
+  color: gray;
+  pointer-events: none;
+  font-size: 1.3vw;
+   
+}
+.name{
+  position: fixed;
+  top:-1vh;
+  color:rgb(254, 252, 252);
+  font-size: 3vw;
+
+}
+ 
+input{
+  text-align: start;
+}
+#height{
+  position: relative;
+  left:0.3vw;
+}  
+#age{
+  text-align: center;
+  position: relative;
+  left:2vw;
+  width:10vw;
+}
+.gender{
+  margin-left: 1vw;
+}
+.endbtn{
+  position: relative;
+  left:3vw;
+  height: 5vh;
+  font-size: 1.4vw;
+  font-weight:600;
+  background-color: darkgray;
+}
+.endbtn:hover{
+  background-color: ghostwhite;
+}
+.calculate{
+  margin-left: 4vw;
+  margin-right: 1vw;
+}
+.alert{
+  position: fixed;
+  left:40vw;
+  top:10vh;
+  font-size:1.8vw;
+  color:red;
+  font-weight: 600;
+}
+.info{
+  position:relative;
+  left:5vw;
+  top:8vh;
+}
+td,th{
+  border:2px solid rgb(14, 13, 13);
+  font-size: 1.5vw;
+  text-align: center;
+  font-weight: 700;
+  color:white;
+}
+.bmirange{
+  position: relative;
+  left:5vw;
+  top:2vh;
+  font-size: 2vw;
+  color:white;
+}
+.result{
+  position: fixed;
+  left:76vw;
+  top:20vh;
+  font-size: 1.6vw;
+  color:white;
+  animation: fade-in 2s  0s  ease;
+}
+@keyframes  fade-in {
+  from{
+    scale: 0;
+  }to{
+    scale: 1;
+  }
+}
+.bmi{
+  position:relative;
+  left:-8vw;
+  width:30vw;
+  font-size: 2.3vw;
+  font-weight: 700;
+  color:blue;
+} 
+.condition{
+  position: relative;
+  top:0vh;
+  left:-5vw;
+  font-size:3vw;
+  font-weight: 700;
+}
+.table tr{
+  transition: all 0.3s ease-in-out;
+}
+.table tr:hover{
+  cursor: pointer;
+}
