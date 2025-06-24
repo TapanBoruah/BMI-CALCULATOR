@@ -2,10 +2,9 @@ import './App.css';
 import Calc from './components/Calc';
 
 function App() {
-  return(
-   <Calc/>
-  
-  )
+  return (
+    <Calc />
+  );
 }
 
-export default App ;
+export default App;
